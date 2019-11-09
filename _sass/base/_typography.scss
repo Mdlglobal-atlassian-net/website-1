@@ -1,0 +1,27 @@
+html {
+  @include fluid-type($fluid-type--min-width, $fluid-type--max-width, $fluid-type--min-size, $fluid-type--max-size);
+  color: $font-color-base;
+  font-family: $font-family-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-heading;
+}
+
+h1 {
+  font-size: $fluid-type--small-modifer*$fluid-type--small-modifer*$fluid-type--small-modifer*$fluid-type--small-modifer *1rem;
+  @include fluid-type($fluid-type--min-width, $fluid-type--max-width, $fluid-type--small-modifer*$fluid-type--small-modifer*$fluid-type--small-modifer *$fluid-type--min-size, $fluid-type--large-modifer*$fluid-type--large-modifer*$fluid-type--large-modifer *$fluid-type--min-size);
+}
+h2 {
+  font-size: $fluid-type--small-modifer*$fluid-type--small-modifer*$fluid-type--small-modifer *1rem;
+  @include fluid-type($fluid-type--min-width, $fluid-type--max-width, $fluid-type--small-modifer*$fluid-type--small-modifer*$fluid-type--small-modifer *$fluid-type--min-size, $fluid-type--large-modifer*$fluid-type--large-modifer*$fluid-type--large-modifer *$fluid-type--min-size);
+}
+h3 {
+  font-size: $fluid-type--small-modifer*$fluid-type--small-modifer *1rem;
+  @include fluid-type($fluid-type--min-width, $fluid-type--max-width, $fluid-type--small-modifer*$fluid-type--small-modifer *$fluid-type--min-size, $fluid-type--large-modifer*$fluid-type--large-modifer *$fluid-type--min-size);
+}

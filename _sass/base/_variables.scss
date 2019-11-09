@@ -1,0 +1,24 @@
+// Colors
+$black: #111111;
+$white: #ffffff;
+
+// Typography > Font Color
+$font-color-base: $white;
+
+// Typography > Font Families
+$font-family-base: "IBM Plex Serif", serif;
+$font-family-heading: "IBM Plex Sans Condensed", sans-serif;
+
+// Typography > Fluid Type
+$fluid-type--min-width: 320px;
+$fluid-type--max-width: 620px;
+$fluid-type--min-size: 16px;
+$fluid-type--max-size: 32px;
+$fluid-type--small-modifer: 1.2;
+$fluid-type--large-modifer: 1.5;
+
+// Backgrounds
+$background--viewport: $black;
+
+// Spacing
+$spacing--base: 1rem;
