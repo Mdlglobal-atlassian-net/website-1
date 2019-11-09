@@ -1,0 +1,4 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+title: "Messy Meetups"
+description: "Monthly conversations between diverse, open-minded creatives on difficult topics."
