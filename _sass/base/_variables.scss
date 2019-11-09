@@ -9,16 +9,21 @@ $font-color-base: $white;
 $font-family-base: "IBM Plex Serif", serif;
 $font-family-heading: "IBM Plex Sans Condensed", sans-serif;
 
+// Typography > Line Heights
+$line-height--base: 1.25;
+
 // Typography > Fluid Type
 $fluid-type--min-width: 320px;
 $fluid-type--max-width: 620px;
 $fluid-type--min-size: 16px;
-$fluid-type--max-size: 32px;
-$fluid-type--small-modifer: 1.2;
-$fluid-type--large-modifer: 1.5;
+$fluid-type--max-size: 24px;
+$fluid-type--small-modifer: 1.1;
+$fluid-type--large-modifer: 1.3;
 
 // Backgrounds
 $background--viewport: $black;
 
 // Spacing
 $spacing--base: 1rem;
+$spacing--medium: $spacing--base * 1.5;
+$spacing--large: $spacing--base * 3;

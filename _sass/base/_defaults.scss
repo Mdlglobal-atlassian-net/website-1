@@ -3,6 +3,11 @@ body, * {
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   background-color: $background--viewport;
@@ -15,5 +20,16 @@ img {
 
 hr {
   border: 0;
-  border-bottom: solid 1px $black;
+  border-bottom: solid 1px $white;
+  margin: $spacing--large 0;
+}
+
+a {
+  color: $white;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+
+  &:hover {
+    text-decoration-color: red;
+  }
 }

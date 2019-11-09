@@ -1,0 +1,25 @@
+.site-header__logo {
+  display: block;
+  margin: $spacing--medium auto $spacing--large;
+}
+
+.site-header__callout {
+  background-color: $white;
+  box-shadow: 4px 4px 0px rgba(255, 255, 255, 0.5);
+  color: $black;
+  margin: $spacing--medium $spacing--base $spacing--large;;
+  max-width: 350px;
+  padding: $spacing--base;
+  text-align: center;
+}
+
+.site-header__callout-title {
+  font-family: $font-family-heading;
+  font-size: 1.25rem;
+}
+
+.site-header__callout-image {
+  margin-bottom: $spacing--base;
+  margin-top: $spacing--base;
+  width: 160px;
+}

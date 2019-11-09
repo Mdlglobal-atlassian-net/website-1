@@ -1,0 +1,15 @@
+.site-footer {
+  font-size: .75rem;
+  margin-top: $spacing--medium;
+  padding-bottom: $spacing--base;
+  text-align: center;
+}
+
+.site-footer p {
+  margin-bottom: 0;
+  margin-top: 5px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
