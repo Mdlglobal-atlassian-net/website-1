@@ -1,6 +1,7 @@
 .site-header__logo {
   display: block;
   margin: $spacing--medium auto $spacing--large;
+  max-width: 350px;
 }
 
 .site-header__callout {
