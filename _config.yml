@@ -1,4 +1,4 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://face-face-meetups.github.io/website/"
 baseurl: ""
 title: "Face to Face"
 description: "Monthly conversations between diverse, open-minded creatives on difficult topics."
